@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="213.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TotalCustomersController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#75abd0" height="213.0" layoutX="-9.0" stroke="BLACK" strokeType="INSIDE" width="452.0" />
+      <Label fx:id="custTotalLabel" layoutX="51.0" layoutY="14.0" text="Total # of Customers" textFill="#414551">
+         <font>
+            <Font name="Sana Regular" size="36.0" />
+         </font>
+         <padding>
+            <Insets left="18.0" />
+         </padding>
+      </Label>
+      <Label fx:id="customerTotalLabel" layoutX="192.0" layoutY="72.0" text="0">
+         <font>
+            <Font size="84.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="367.0" layoutY="175.0" mnemonicParsing="false" onAction="#onActionBack" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GenerateReportsMainController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#75abd0" height="275.0" stroke="BLACK" strokeType="INSIDE" width="442.0" />
+        <Label fx:id="generateReportsLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="14.0" prefHeight="76.0" prefWidth="365.0" text="Generate Reports" textAlignment="CENTER" textFill="#414551">
+            <font>
+                <Font name="Sana Regular" size="44.0" />
+            </font>
+            <padding>
+                <Insets left="18.0" />
+            </padding>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Button fx:id="totalNumberButton" defaultButton="true" layoutX="90.0" layoutY="90.0" mnemonicParsing="false" onAction="#onActionViewTotalNumber" prefHeight="27.0" prefWidth="266.0" text="Total Number of Customer Appts" />
+        <Button fx:id="scheduleForEachContactButton" defaultButton="true" layoutX="90.0" layoutY="125.0" mnemonicParsing="false" onAction="#onActionViewScheduleForEachContact" prefHeight="27.0" prefWidth="266.0" text="Schedule for Each Contact" />
+        <Button fx:id="AdditionalReportButton" defaultButton="true" layoutX="90.0" layoutY="160.0" mnemonicParsing="false" onAction="#onActionViewAdditionalReport" prefHeight="27.0" prefWidth="266.0" text="Total # of Customers" />
+        <Button fx:id="viewScheduleButton" defaultButton="true" layoutX="90.0" layoutY="230.0" mnemonicParsing="false" onAction="#onActionViewSchedule" prefHeight="27.0" prefWidth="266.0" text="Back to Schedule" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MemberLoginController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#75abd0" height="275.0" stroke="BLACK" strokeType="INSIDE" width="442.0" />
+      <Label fx:id="memberLoginLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="14.0" prefHeight="76.0" prefWidth="365.0" text="Member Login" textAlignment="CENTER" textFill="#414551">
+         <font>
+            <Font name="Sana Regular" size="44.0" />
+         </font>
+         <padding>
+            <Insets left="18.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Button fx:id="LoginButton" defaultButton="true" layoutX="97.0" layoutY="207.0" mnemonicParsing="false" onAction="#onActionLogIn" prefHeight="27.0" prefWidth="266.0" text="LOG IN" />
+      <TextField fx:id="usernameTxt" layoutX="97.0" layoutY="107.0" prefHeight="27.0" prefWidth="266.0" promptText="Username" />
+      <PasswordField fx:id="passwordTxt" layoutX="97.0" layoutY="157.0" prefHeight="27.0" prefWidth="266.0" promptText="Password" />
+      <Label fx:id="wrongLoginLabel" alignment="TOP_CENTER" layoutX="106.0" layoutY="82.0" prefHeight="17.0" prefWidth="248.0" textAlignment="CENTER" textFill="#bf1313" />
+      <Label fx:id="locationLabel" alignment="TOP_CENTER" layoutX="106.0" layoutY="244.0" prefHeight="17.0" prefWidth="248.0" text="(location here)" textAlignment="CENTER" textFill="#414551" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TotalApptsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#75abd0" height="653.0" layoutX="-9.0" stroke="BLACK" strokeType="INSIDE" width="452.0" />
+      <Label fx:id="apptTotalsLabel" layoutX="60.0" layoutY="14.0" text="Appointment Totals" textFill="#414551">
+         <font>
+            <Font name="Sana Regular" size="36.0" />
+         </font>
+         <padding>
+            <Insets left="18.0" />
+         </padding>
+      </Label>
+      <AnchorPane layoutX="66.0" layoutY="52.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="371.0">
+         <children>
+            <VBox prefHeight="340.0" prefWidth="360.0">
+               <children>
+                  <GridPane vgap="30.0">
+                     <children>
+                        <Label fx:id="planL" text="Phone:" />
+                        <Label fx:id="debriefL" text="Online:" GridPane.rowIndex="1" />
+                        <Label fx:id="janL" text="January:" GridPane.rowIndex="2" />
+                        <Label fx:id="febL" text="February:" GridPane.rowIndex="3" />
+                        <Label fx:id="marL" text="March:" GridPane.rowIndex="4" />
+                        <Label fx:id="decL" text="December:" GridPane.rowIndex="13" />
+                        <Label fx:id="novL" text="November:" GridPane.rowIndex="12" />
+                        <Label fx:id="octL" text="October:" GridPane.rowIndex="11" />
+                        <Label fx:id="septL" text="September:" GridPane.rowIndex="10" />
+                        <Label fx:id="augL" text="August:" GridPane.rowIndex="9" />
+                        <Label fx:id="julyL" text="July:" GridPane.rowIndex="8" />
+                        <Label fx:id="aprilL" text="April:" GridPane.rowIndex="5" />
+                        <Label fx:id="mayL" text="May:" GridPane.rowIndex="6" />
+                        <Label fx:id="juneL" text="June:" GridPane.rowIndex="7" />
+                        <Label fx:id="PSLabel" text="0" GridPane.columnIndex="1" />
+                        <Label fx:id="DBLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="JanLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="FebLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label fx:id="MarchLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label fx:id="AprilLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label fx:id="MayLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Label fx:id="JuneLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label fx:id="JulyLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Label fx:id="AugLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <Label fx:id="SeptLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <Label fx:id="OctLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <Label fx:id="NovLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                        <Label fx:id="DecLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="140.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="130.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </children>
+               <padding>
+                  <Insets left="10.0" top="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Button fx:id="backButton" layoutX="357.0" layoutY="615.0" mnemonicParsing="false" onAction="#onActionBack" prefHeight="27.0" prefWidth="70.0" text="Back" />
+   </children>
+</AnchorPane>
